@@ -1,12 +1,9 @@
 
 a {
     color: darkslategray;
-    font-style: normal;
+    font-style: none;
     font-weight: lighter;
-}
-
-a:hover {
-    color: blue;
+    text-decoration: none;
 }
 
 .heading {
@@ -27,13 +24,13 @@ a:hover {
     margin-right: 10px;
     background-color: #fcfcfc;
     height: 50vh;
-    box-shadow: 5px 4px 5px #888888 ;
 }
 .news {
     border-top: 2px solid black;  
     border-left: 1px solid grey;  
     border-right: 1px solid grey; 
     box-sizing: border-box;
+    box-shadow: 5px 4px 5px #888888;
     flex-direction: column;
     text-align: center;
     color: #404040;
@@ -77,30 +74,28 @@ a:hover {
 
 .chart {
     width: 72%;
-    display: inline-block;
-    align-self: stretch;
-    box-sizing: border-box;
-    box-shadow: 5px 5px 5px #888888;
-    margin: 0%;
-    padding: 0%;
-    list-style: none;
-}
-
-.chart-row {
-    width: 100%;
-    height: 20%;    
-    font-size: 150%;
-    font-family: Times;
-    text-shadow: 1px 1px grey;
-    color:darkslategray;
+    height: 100%;
     text-align: left;
     box-sizing: border-box;
+    display: flex;
+    font-size: 125%;
+}
+
+.row {
+    flex: 1;
     padding: 5px;
+}
+
+.row:hover {
+    background-color: #ffffff;
+    color: black;
 }
 
 .row1 {
     background-color:#FFBF00;
+
 }
+
 .row2 {
     background-color:#E83f6f;
 }
@@ -114,5 +109,5 @@ a:hover {
 }
 
 .row5 {
-    background-color:fffff;
+    background-color: #dddddd;
 }
