@@ -38,6 +38,7 @@
     width: 28%;   
 }
 .center-news {
+    text-align: center;
     width: 44%;
 }
 .right-news {
